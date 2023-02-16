@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Step Tracker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="running">Step Counter</string>
+    <string name="settings">Settings</string>
+    <string name="data">Data</string>
+    <string name="achievements">Achievements</string>
+    <string name="StepLabel">Steps</string>
+    <string name="step_tracker_title">Steps</string>
+    <string name="_0">0</string>
+    <string name="switch_theme">Switch Theme</string>
+    <string name="calories_burned">Calories burned:</string>
+    <string name="total_steps">Total steps:</string>
+    <string name="number_of_steps_day">Number of steps/day:</string>
+    <string name="highest_score">Highest score:</string>
+    <string name="kcal">kcal</string>
+    <string name="StepAchievement1">Step more than 6000 on a single day</string>
+    <string name="StepAchievement2">Step more than 12000 on a single day</string>
+    <string name="StepAchievement3">Step more than 18000 on a single day</string>
+    <string name="StepAchievement4">Step more than 24000 on a single day</string>
+    <string name="be_active_on_a_whole_week">Be active on a whole week</string>
+    <string name="personal_data">Personal data</string>
+    <string name="weight">Weight:</string>
+    <string name="kg">kg</string>
+    <string name="height">Height:</string>
+    <string name="submit">submit</string>
+    <string name="cm">cm</string>
+
+    <string-array name="textSize">
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Big</item>
+    </string-array>
+
+</resources>
