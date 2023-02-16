@@ -1,0 +1,1 @@
+Programozás 2 tárgy keretében elkészített vonat és jegykezelő alkalmazás.

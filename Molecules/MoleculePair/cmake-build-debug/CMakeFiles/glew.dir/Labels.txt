@@ -1,0 +1,13 @@
+# Target labels
+ glew
+# Source files and their labels
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glew
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glew.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glew-complete.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-build.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-configure.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-download.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-install.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-mkdir.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-patch.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-update.rule

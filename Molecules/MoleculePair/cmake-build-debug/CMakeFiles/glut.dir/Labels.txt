@@ -1,0 +1,13 @@
+# Target labels
+ glut
+# Source files and their labels
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glut
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glut.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glut-complete.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-build.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-configure.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-download.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-install.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-mkdir.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-patch.rule
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-update.rule

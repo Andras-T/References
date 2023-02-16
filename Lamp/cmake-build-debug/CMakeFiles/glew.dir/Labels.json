@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/CMakeFiles/glew"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/CMakeFiles/glew.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/CMakeFiles/glew-complete.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-build.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-configure.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-download.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-install.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-mkdir.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-patch.rule"
+		},
+		{
+			"file" : "D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glew"
+		],
+		"name" : "glew"
+	}
+}

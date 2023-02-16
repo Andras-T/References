@@ -1,0 +1,83 @@
+# ninja log v5
+1124	4479	6982634768637626	glut-prefix/src/glut-stamp/glut-download	de01f0f7db3fc7d7
+4372	4471	6982634768398264	glew-prefix/src/glew-stamp/glew-done	331eac69c66a8f93
+4	1124	6982634734848986	glut-prefix/src/glut-stamp/glut-mkdir	875a11e5940ce197
+4126	4183	6982634765685524	glew-prefix/src/glew-stamp/glew-configure	3032b55c351a44f
+4008	4067	6982634764528619	glew-prefix/src/glew-stamp/glew-update	f9862adf76b0149d
+4640	4685	6982634770722035	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-build	447648c1452c398a
+8	1099	6982634734709356	glew-prefix/src/glew-stamp/glew-mkdir	eac0d32563835cfb
+4582	4640	6982634770273248	glut-prefix/src/glut-stamp/glut-configure	e68f5d9e40564283
+4531	4582	6982634769684822	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-patch	922eeb0dd582f1d
+4733	4999	6982634773853663	glut-prefix/src/glut-stamp/glut-done	38055b8a3dccf3ca
+1099	4008	6982634763950166	glew-prefix/src/glew-stamp/glew-download	7d4ad35bb82795d6
+4067	4125	6982634765127014	glew-prefix/src/glew-stamp/glew-patch	112712169ea76395
+4183	4312	6982634766902275	glew-prefix/src/glew-stamp/glew-build	152e729fdd276cf5
+4312	4372	6982634767590429	glew-prefix/src/glew-stamp/glew-install	c19d5d1397b68955
+4372	4471	6982634768398264	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-done	331eac69c66a8f93
+4531	4582	6982634769684822	glut-prefix/src/glut-stamp/glut-patch	922eeb0dd582f1d
+4372	4471	6982634768398264	CMakeFiles/glew-complete	331eac69c66a8f93
+4312	4372	6982634767590429	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-install	c19d5d1397b68955
+4479	4531	6982634769156251	glut-prefix/src/glut-stamp/glut-update	356cc3673c57259
+4640	4685	6982634770722035	glut-prefix/src/glut-stamp/glut-build	447648c1452c398a
+4686	4733	6982634771200767	glut-prefix/src/glut-stamp/glut-install	554605914dca7a0d
+4733	4999	6982634773853663	CMakeFiles/glut-complete	38055b8a3dccf3ca
+7249	7555	6982634798322207	program.exe	2b60d5991d32abe9
+5016	7249	6982634796337814	CMakeFiles/program.dir/src/Skeleton.cpp.obj	8f975ce5fefa60bf
+5014	6879	6982634792643382	CMakeFiles/program.dir/src/framework.cpp.obj	785ef157c8343b9a
+8	1099	6982634734709356	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-mkdir	eac0d32563835cfb
+4183	4312	6982634766902275	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-build	152e729fdd276cf5
+4	1124	6982634734848986	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-mkdir	875a11e5940ce197
+1099	4008	6982634763950166	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-download	7d4ad35bb82795d6
+4126	4183	6982634765685524	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-configure	3032b55c351a44f
+4733	4999	6982634773853663	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-done	38055b8a3dccf3ca
+4008	4067	6982634764528619	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-update	f9862adf76b0149d
+4067	4125	6982634765127014	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-patch	112712169ea76395
+4372	4471	6982634768398264	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/CMakeFiles/glew-complete	331eac69c66a8f93
+1124	4479	6982634768637626	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-download	de01f0f7db3fc7d7
+4479	4531	6982634769156251	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-update	356cc3673c57259
+4582	4640	6982634770273248	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-configure	e68f5d9e40564283
+4686	4733	6982634771200767	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-install	554605914dca7a0d
+4733	4999	6982634773853663	F:/Asztal/BME/4. félév/Grafika/Lamp/cmake-build-debug/CMakeFiles/glut-complete	38055b8a3dccf3ca
+4999	5014	0	F:/Asztal/BME/4. félév/Grafika/Lamp/src/framework.cpp	9ceccd2007ddaec7
+5002	5016	0	F:/Asztal/BME/4. félév/Grafika/Lamp/src/Skeleton.cpp	9ceccd2007ddaec7
+3	432	6982649572278487	glut-prefix/src/glut-stamp/glut-mkdir	50e19fce6e5cf11c
+3	432	6982649572278487	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-mkdir	50e19fce6e5cf11c
+7	438	6982649572288461	glew-prefix/src/glew-stamp/glew-mkdir	4066da8c53abe579
+7	438	6982649572288461	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-mkdir	4066da8c53abe579
+438	2171	6982649589728561	glew-prefix/src/glew-stamp/glew-download	5f6195cea2690240
+438	2171	6982649589728561	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-download	5f6195cea2690240
+2171	2215	6982649590178625	glew-prefix/src/glew-stamp/glew-update	dd23c176040d9424
+2171	2215	6982649590178625	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-update	dd23c176040d9424
+2216	2258	6982649590611203	glew-prefix/src/glew-stamp/glew-patch	e5873849e64938c0
+2216	2258	6982649590611203	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-patch	e5873849e64938c0
+2259	2302	6982649591045678	glew-prefix/src/glew-stamp/glew-configure	d33e0af23c1cd872
+2259	2302	6982649591045678	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-configure	d33e0af23c1cd872
+2302	2345	6982649591474779	glew-prefix/src/glew-stamp/glew-build	ffb65056c6a41615
+2302	2345	6982649591474779	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-build	ffb65056c6a41615
+2346	2390	6982649591923521	glew-prefix/src/glew-stamp/glew-install	20fd94c4a1ce2da3
+2346	2390	6982649591923521	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-install	20fd94c4a1ce2da3
+2390	2457	6982649592581747	CMakeFiles/glew-complete	6163d461ac18b9e2
+2390	2457	6982649592581747	glew-prefix/src/glew-stamp/glew-done	6163d461ac18b9e2
+2390	2457	6982649592581747	D:/References/Lamp/cmake-build-debug/CMakeFiles/glew-complete	6163d461ac18b9e2
+2390	2457	6982649592581747	D:/References/Lamp/cmake-build-debug/glew-prefix/src/glew-stamp/glew-done	6163d461ac18b9e2
+432	4679	6982649614812333	glut-prefix/src/glut-stamp/glut-download	ac71e15e92e77d8e
+432	4679	6982649614812333	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-download	ac71e15e92e77d8e
+4680	4723	6982649615254622	glut-prefix/src/glut-stamp/glut-update	5379675b6619e9f7
+4680	4723	6982649615254622	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-update	5379675b6619e9f7
+4724	4768	6982649615699785	glut-prefix/src/glut-stamp/glut-patch	24cb1555d4006b03
+4724	4768	6982649615699785	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-patch	24cb1555d4006b03
+4768	4812	6982649616143527	glut-prefix/src/glut-stamp/glut-configure	787943727c4da4ae
+4768	4812	6982649616143527	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-configure	787943727c4da4ae
+4812	4855	6982649616573231	glut-prefix/src/glut-stamp/glut-build	13c22e7d346dcea2
+4812	4855	6982649616573231	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-build	13c22e7d346dcea2
+4855	4900	6982649617022094	glut-prefix/src/glut-stamp/glut-install	ad6124e0730144c9
+4855	4900	6982649617022094	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-install	ad6124e0730144c9
+4900	4966	6982649617671617	CMakeFiles/glut-complete	8aae9610e3ee4696
+4900	4966	6982649617671617	glut-prefix/src/glut-stamp/glut-done	8aae9610e3ee4696
+4900	4966	6982649617671617	D:/References/Lamp/cmake-build-debug/CMakeFiles/glut-complete	8aae9610e3ee4696
+4900	4966	6982649617671617	D:/References/Lamp/cmake-build-debug/glut-prefix/src/glut-stamp/glut-done	8aae9610e3ee4696
+4966	4975	0	D:/References/Lamp/src/framework.cpp	9ceccd2007ddaec7
+4969	4978	0	D:/References/Lamp/src/Skeleton.cpp	9ceccd2007ddaec7
+4976	6265	6982649630667720	CMakeFiles/program.dir/src/framework.cpp.obj	29deb8b9a4883fc6
+4978	6596	6982649633968607	CMakeFiles/program.dir/src/Skeleton.cpp.obj	8a92ec902fcb47de
+6596	6906	6982649635712565	program.exe	946abf92940d434

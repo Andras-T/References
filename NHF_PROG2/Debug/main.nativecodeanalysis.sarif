@@ -1,0 +1,1864 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*92+4' bytes, but '184' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VJarat@@@@QAEXVJarat@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Jarat::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\jarat.h:23)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*24+4' bytes, but '48' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VVonat@@@@QAEXVVonat@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Vonat::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\vonat.h:19)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*40+4' bytes, but '80' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VBicikli@@@@QAEXVBicikli@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Bicikli::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\bicikli.h:17)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*40+4' bytes, but '80' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VFelnottJegy@@@@QAEXVFelnottJegy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'FelnottJegy::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\felnott.h:17)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*40+4' bytes, but '80' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VDiakJegy@@@@QAEXVDiakJegy@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'DiakJegy::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\diak.h:17)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*32+4' bytes, but '64' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VJegyek@@@@QAEXVJegyek@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Jegyek::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\jegyek.h:19)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*12+4' bytes, but '24' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VString@@@@QAEXVString@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'String::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\string5.h:60)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'temp':  the readable size is '(unsigned int)*16+4' bytes, but '32' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                },
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 17,
+                  "endLine": 60,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?push@?$vectorClass@VKocsi@@@@QAEXVKocsi@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'aktualis==kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<kapacitas')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'Kocsi::=' (declared at f:\\workspace vs 2019\\nhf_prog2\\nhf_prog2\\kocsi.h:18)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'temp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29913.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00FAB1C0 -il C:\\Users\\4ndra\\AppData\\Local\\Temp\\_CL_dcad7ba5ast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829913 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\main.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory F:\\Workspace VS 2019\\NHF_PROG2\\NHF_PROG2 -analyze:rulesetdirectory ;D:\\Visual Studio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Visual Studio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\include -I D:\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I D:\\Visual Studio\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/Workspace VS 2019/NHF_PROG2/NHF_PROG2/vector.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "48e350948a37b7690f0d1f6eed2f951f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "652419914b91e9bfbd0257af0d36547a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/jarat.h"
+          },
+          "hashes": {
+            "md5": "5590584cdc3f56bf474b80c71d6819e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/vonat.h"
+          },
+          "hashes": {
+            "md5": "dd695d52f8d95016796f697b2b35c7e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/string5.h"
+          },
+          "hashes": {
+            "md5": "c24c5ee6d3de58910f46d691adf0c449"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/kocsi.h"
+          },
+          "hashes": {
+            "md5": "618f68c704354e7b95c479cf1d37f4f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/allomas.h"
+          },
+          "hashes": {
+            "md5": "ea0e9b1962ed3a4f816e8cda81ec12ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/datum.h"
+          },
+          "hashes": {
+            "md5": "b22569f1ce0b4f3c30a73ebf90759026"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/jegyek.h"
+          },
+          "hashes": {
+            "md5": "922d90454e4fab652c8bbd2699d5da24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/diak.h"
+          },
+          "hashes": {
+            "md5": "97eb882b4508c7d846f2c3fc9f3c40fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/felnott.h"
+          },
+          "hashes": {
+            "md5": "3a6aaa50a31bb3c6a7e92b1f5640d11f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/bicikli.h"
+          },
+          "hashes": {
+            "md5": "8dd4bc80f917e6aca91371b182e19ee5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/allomaskezeles.h"
+          },
+          "hashes": {
+            "md5": "ec5069b47a8fcf39900ad6c0365437cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/vonatkezeles.h"
+          },
+          "hashes": {
+            "md5": "7b42fbc493a0f1d9e2975d18b06b6823"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/workspace vs 2019/nhf_prog2/nhf_prog2/jaratkezeles.h"
+          },
+          "hashes": {
+            "md5": "433226b589dd376ac56856df69dafb3d"
+          }
+        }
+      ]
+    }
+  ]
+}

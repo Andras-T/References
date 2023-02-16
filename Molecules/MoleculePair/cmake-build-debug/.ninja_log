@@ -1,0 +1,101 @@
+# ninja log v5
+19	894	6716473457106308	glew-prefix/src/glew-stamp/glew-mkdir	7f89231bd198fa2c
+4539	4579	6716473494003220	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-install	455c7892f655175b
+5896	5936	0	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/src/Skeleton.cpp	9ceccd2007ddaec7
+5318	5445	6715035543067341	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-update	e002f4acb934cff6
+0	1816	6715035353308931	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-mkdir	c947eef392d1970c
+4640	4649	0	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/src/Skeleton.cpp	9ceccd2007ddaec7
+4579	4640	6716473494611602	glut-prefix/src/glut-stamp/glut-done	fedc39a513bdd44f
+5033	5075	6715035385922997	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-update	6b142da1b6a81077
+894	2337	6716473471573894	glew-prefix/src/glew-stamp/glew-download	265966ae28d46f79
+2383	2426	6716473472475304	glew-prefix/src/glew-stamp/glew-patch	5d16943e33d9a3d3
+19	894	6716473457106308	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-mkdir	7f89231bd198fa2c
+4373	4414	6716473492347632	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-update	4ccee32a737a02a4
+1816	5032	6715035385491752	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-download	3aa027303149bb80
+5076	5121	6715035386381769	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-patch	202f42604ead4668
+2337	2383	6716473472026504	glew-prefix/src/glew-stamp/glew-update	c51eb9ff46188f87
+2426	2472	6716473472924106	glew-prefix/src/glew-stamp/glew-configure	29dd946b572c61b3
+5122	5165	6715035386808870	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-configure	81024e9aa680cc0e
+2472	2514	6716473473352968	glew-prefix/src/glew-stamp/glew-build	c533ecfb8db668de
+5165	5240	6715035387561937	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-build	aee3eea4f2b54c8c
+2514	2558	6716473473781816	glew-prefix/src/glew-stamp/glew-install	4f77b0e38b48350
+284	5317	6715035541790754	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-download	e50d540891d3b12c
+5240	5285	6715035388012433	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-install	2328c455e8eb24f8
+4414	4455	6716473492760418	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-patch	516f3a11c74fd1af
+2558	2633	6716473474529808	CMakeFiles/glew-complete	da120517a50d8194
+4414	4455	6716473492760418	glut-prefix/src/glut-stamp/glut-patch	516f3a11c74fd1af
+2558	2633	6716473474529808	glew-prefix/src/glew-stamp/glew-done	da120517a50d8194
+3	884	6716473457046475	glut-prefix/src/glut-stamp/glut-mkdir	355dd321e3431f96
+885	4373	6716473491940236	glut-prefix/src/glut-stamp/glut-download	6610ea030d26c7d2
+4579	4640	6716473494611602	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glut-complete	fedc39a513bdd44f
+5285	5360	6715035388763578	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/CMakeFiles/glew-complete	d7c159d822352b34
+2558	2633	6716473474529808	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glew-complete	da120517a50d8194
+5285	5360	6715035388763578	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glew-prefix/src/glew-stamp/glew-done	d7c159d822352b34
+1	284	6715035491464598	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-mkdir	50acf39a09aca087
+4373	4414	6716473492347632	glut-prefix/src/glut-stamp/glut-update	4ccee32a737a02a4
+5445	5516	6715035543770537	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-patch	17f497bd46a70590
+885	4373	6716473491940236	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-download	6610ea030d26c7d2
+4455	4498	6716473493189273	glut-prefix/src/glut-stamp/glut-configure	ae2e1f5b37e593d6
+5516	5636	6715035544967330	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-configure	4a1d743b4fda59ad
+5771	5890	6715035547520664	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-done	5ac837b85f9c70ac
+4498	4539	6716473493604291	glut-prefix/src/glut-stamp/glut-build	6068559738b9c12a
+5771	5890	6715035547520664	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/CMakeFiles/glut-complete	5ac837b85f9c70ac
+5636	5694	6715035545570800	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-build	320584dda7e35e62
+4539	4579	6716473494003220	glut-prefix/src/glut-stamp/glut-install	455c7892f655175b
+5694	5771	6715035546318794	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/cmake-build-debug/glut-prefix/src/glut-stamp/glut-install	525e3d55efba2e61
+4498	4539	6716473493604291	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-build	6068559738b9c12a
+4579	4640	6716473494611602	CMakeFiles/glut-complete	fedc39a513bdd44f
+2472	2514	6716473473352968	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-build	c533ecfb8db668de
+5890	5906	0	F:/Asztal/BME/4. félév/Grafika/2022/cpp23/src/framework.cpp	9ceccd2007ddaec7
+4652	5989	6716473508107749	CMakeFiles/program.dir/src/framework.cpp.obj	a3ec5a6d4b80119
+3	3894	6719045288594028	CMakeFiles/program.dir/src/Skeleton.cpp.obj	48e1996b2df93e5c
+3894	4114	6719045290130176	program.exe	64001f04099adff0
+2558	2633	6716473474529808	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-done	da120517a50d8194
+3	884	6716473457046475	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-mkdir	355dd321e3431f96
+2383	2426	6716473472475304	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-patch	5d16943e33d9a3d3
+894	2337	6716473471573894	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-download	265966ae28d46f79
+2337	2383	6716473472026504	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-update	c51eb9ff46188f87
+2426	2472	6716473472924106	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-configure	29dd946b572c61b3
+2514	2558	6716473473781816	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-install	4f77b0e38b48350
+4455	4498	6716473493189273	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-configure	ae2e1f5b37e593d6
+4579	4640	6716473494611602	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-done	fedc39a513bdd44f
+4642	4652	0	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/src/framework.cpp	9ceccd2007ddaec7
+7	273	6975115515282095	glew-prefix/src/glew-stamp/glew-mkdir	146a0d2e63cceaa4
+7	273	6975115515282095	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-mkdir	146a0d2e63cceaa4
+2	285	6975115515381821	glut-prefix/src/glut-stamp/glut-mkdir	fc5b8b4bb8149629
+2	285	6975115515381821	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-mkdir	fc5b8b4bb8149629
+274	2296	6975115535503966	glew-prefix/src/glew-stamp/glew-download	e17f69aed54ec82d
+274	2296	6975115535503966	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-download	e17f69aed54ec82d
+2296	2364	6975115536182129	glew-prefix/src/glew-stamp/glew-update	8e723c25e6080e8b
+2296	2364	6975115536182129	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-update	8e723c25e6080e8b
+2364	2424	6975115536790467	glew-prefix/src/glew-stamp/glew-patch	42f29b0a5a5ca9bf
+2364	2424	6975115536790467	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-patch	42f29b0a5a5ca9bf
+2424	2472	6975115537289116	glew-prefix/src/glew-stamp/glew-configure	52c8e3f68e3b9f2f
+2424	2472	6975115537289116	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-configure	52c8e3f68e3b9f2f
+2472	2523	6975115537797730	glew-prefix/src/glew-stamp/glew-build	6bc1a69a053fe275
+2472	2523	6975115537797730	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-build	6bc1a69a053fe275
+2523	2580	6975115538346245	glew-prefix/src/glew-stamp/glew-install	5c659d64378e9ce8
+2523	2580	6975115538346245	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-install	5c659d64378e9ce8
+2580	2650	6975115539064288	CMakeFiles/glew-complete	fc50847dc1146055
+2580	2650	6975115539064288	glew-prefix/src/glew-stamp/glew-done	fc50847dc1146055
+2580	2650	6975115539064288	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glew-complete	fc50847dc1146055
+2580	2650	6975115539064288	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glew-prefix/src/glew-stamp/glew-done	fc50847dc1146055
+285	3012	6975115542664508	glut-prefix/src/glut-stamp/glut-download	48f06073b19d4dd4
+285	3012	6975115542664508	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-download	48f06073b19d4dd4
+3012	3064	6975115543203041	glut-prefix/src/glut-stamp/glut-update	16323981f7867dbd
+3012	3064	6975115543203041	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-update	16323981f7867dbd
+3064	3109	6975115543661796	glut-prefix/src/glut-stamp/glut-patch	cef593f6c7e82fe0
+3064	3109	6975115543661796	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-patch	cef593f6c7e82fe0
+3109	3151	6975115544070674	glut-prefix/src/glut-stamp/glut-configure	3af7af9f73be1321
+3109	3151	6975115544070674	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-configure	3af7af9f73be1321
+3151	3193	6975115544499514	glut-prefix/src/glut-stamp/glut-build	a70891a21e11736d
+3151	3193	6975115544499514	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-build	a70891a21e11736d
+3193	3242	6975115544988187	glut-prefix/src/glut-stamp/glut-install	facd5c9287864664
+3193	3242	6975115544988187	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-install	facd5c9287864664
+3242	3311	6975115545656366	CMakeFiles/glut-complete	7c77d58150bc216c
+3242	3311	6975115545656366	glut-prefix/src/glut-stamp/glut-done	7c77d58150bc216c
+3242	3311	6975115545656366	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glut-complete	7c77d58150bc216c
+3242	3311	6975115545656366	F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/glut-prefix/src/glut-stamp/glut-done	7c77d58150bc216c
+3313	4708	6975115559638365	CMakeFiles/program.dir/src/framework.cpp.obj	e602dd37ea4575c2
+3311	4981	6975115562349397	CMakeFiles/program.dir/src/Skeleton.cpp.obj	41a3ee20e619ff27
+4981	5266	6975115564104343	program.exe	75d793ae2b8e98c9

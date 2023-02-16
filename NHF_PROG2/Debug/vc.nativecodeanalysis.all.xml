@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+      <FILENAME>vector.h</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'temp':  the readable size is '(unsigned int)*92+4' bytes, but '184' bytes may be read.</DESCRIPTION>
+    <FUNCTION>vectorClass&lt;Jarat&gt;::push</FUNCTION>
+    <DECORATED>?push@?$vectorClass@VJarat@@@@QAEXVJarat@@@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'aktualis==kapacitas')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;kapacitas')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>48</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;kapacitas')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Output from 'Jarat::=' (declared at f:\workspace vs 2019\nhf_prog2\nhf_prog2\jarat.h:23)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>F:\Workspace VS 2019\NHF_PROG2\NHF_PROG2\</FILEPATH>
+        <FILENAME>vector.h</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'temp', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>

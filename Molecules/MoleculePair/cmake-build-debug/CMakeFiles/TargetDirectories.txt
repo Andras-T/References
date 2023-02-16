@@ -1,0 +1,5 @@
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/program.dir
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glut.dir
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/glew.dir
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/Asztal/BME/4. félév/Grafika/2022/cpp23_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
